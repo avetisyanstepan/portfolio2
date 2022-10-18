@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  overflow: overlay;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+    overflow: hidden;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+  }
+}
+
+.portfolio {
+
+animation-delay: 1s;
+}
+
+.second{
+animation-delay: 0.8s;
+
+}
+.third{
+  animation-delay: 1.1s;
+}
+.fourth {
+  animation-delay: 1.3s;
+}
+.a1{
+  animation-delay: 0.5s;
+}
+.a2{
+  animation-delay: 5s;
+}
+.a3{
+  animation-delay: 1.6s;
+
+}
