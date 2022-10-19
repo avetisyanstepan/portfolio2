@@ -6,7 +6,7 @@ export const MainLayout = ({children}) => {
       <div className="bg-darkGrey flex-1 z-50" />
         <div className={`flex max-w-[1200px]  w-full shrink-0 mx-auto bg-lightGrey aligne-center `}>
           <SideBar />
-          <main className="ml-[165px] pt-[125px] min-h-screen  w-full">
+          <main className="ml-[165px] pt-[125px] min-h-screen  w-full pb-20">
           {children}  
           </main>
         </div>
